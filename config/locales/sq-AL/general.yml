@@ -77,7 +77,7 @@ sq:
   debates:
     create:
       form:
-        submit_button: Filloni një debat
+        submit_button: Filloni një debat hello
     debate:
       comments:
         zero: Nuk ka komente
