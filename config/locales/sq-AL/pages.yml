@@ -4,7 +4,6 @@ sq:
       title: Termat dhe kushtet e përdorimit
       subtitle: NJOFTIM LIGJOR PËR KUSHTET E PËRDORIMIT, PRIVATIZIMIT DHE MBROJTJEN E TË DHËNAVE PERSONALE TË PORTALIT TË QEVERISË SË HAPUR
       description: Faqe informuese mbi kushtet e përdorimit, privatësinë dhe mbrojtjen e të dhënave personale.
-    general_terms: Termat dhe kushtet 
     help:
       title: "%{org}është një platformë për pjesëmarrjen e qytetarëve"
       guide: "Ky udhëzues shpjegon se çfarë janë secila nga seksionet e %{org} dhe se si funksionojnë."
@@ -57,10 +56,6 @@ sq:
       other:
         title: "Informacione të tjera me interes"
         how_to_use: "Përdorni %{org_name} në qytetin tuaj"
-      how_to_use:
-        text: |-
-          Ky Portal i hapur i  Qeverisë  përdor [aplikacionin CONSUL] (https://github.com/consul/consul 'consul github') që është softuer i lirë, me [licencë AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), që do të thotë me fjalë të thjeshta se kushdo mund ta përdorë kodin lirisht, ta kopjojë atë, ta shohë atë në detaje, ta modifikojë atë dhe ta rishpërndajë atë  me modifikimet që dëshiron (duke lejuar të tjerët të bëjnë të njëjtën gjë). Sepse ne mendojmë se kultura është më e mirë dhe më e pasur kur lirohet.
-          Nëse jeni programues, mund të shihni kodin dhe të na ndihmoni për ta përmirësuar atë në [aplikacionin CONSUL] (https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Përdoreni atë në qeverinë tuaj lokale
     privacy:
@@ -84,16 +79,12 @@ sq:
             - 
               field: 'Institucioni përgjegjës për dokumentin:'
               description: 'Institucioni përgjegjës për dosjen:'
-        - 
-          text: Pala e interesuar mund të ushtrojë të drejtat e qasjes, korrigjimit, anulimit dhe kundërshtimit, përpara se të tregohet organi përgjegjës, i cili raportohet në përputhje me nenin 5 të Ligjit Organik 15/1999, të datës 13 dhjetor, për Mbrojtjen e të Dhënave të Karakterit personal.
-        - 
-          text: Si parim i përgjithshëm, kjo uebfaqe nuk ndan ose zbulon informacionin e marrë, përveç kur është autorizuar nga përdoruesi ose informacioni kërkohet nga autoriteti gjyqësor, prokuroria ose policia gjyqësore, ose në ndonjë nga rastet e rregulluara në Neni 11 i Ligjit Organik 15/1999, datë 13 dhjetor, mbi Mbrojtjen e të Dhënave Personale.
     accessibility:
       title: Aksesueshmëria
       description: |-
         Aksesi në ueb ka të bëjë me mundësinë e qasjes në ueb dhe përmbajtjen e tij nga të gjithë njerëzit, pavarësisht nga aftësitë e kufizuara (fizike, intelektuale ose teknike) që mund të lindin ose nga ato që rrjedhin nga konteksti i përdorimit (teknologjik ose mjedisor).
       examples:
-        - Sigurimi i tekstit alternativë për imazhet, përdoruesit e verbër ose të dëmtuar nga shikimet mund të përdorin lexues të veçantë për të hyrë në informacion.
+        - Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
         - Kur videot kanë titra, përdoruesit me vështirësi dëgjimi mund t'i kuptojnë plotësisht ato.
         - Nëse përmbajtja është e shkruar në një gjuhë të thjeshtë dhe të ilustruar, përdoruesit me probleme të të mësuarit janë më të aftë t'i kuptojnë ato.
         - Nëse përdoruesi ka probleme të lëvizshmërisë dhe është e vështirë të përdorësh mausin, alternativat me ndihmën e tastierës ndihmojnë në navigacion.
@@ -174,10 +165,8 @@ sq:
               description_column: Rrit madhësinë e tekstit
             - 
               shortcut_column: CTRL dhe - (CMD dhe - në MAC)
-              description_column: Zvogëlo madhësinë e tekstit
       compatibility:
         title: Pajtueshmëria me standardet dhe dizajni vizual
-        description_html: 'Të gjitha faqet nê këtë website përputhen me <strong>Udhëzimet e aksesueshmërisë</strong>ose Parimet e Përgjithshme të Dizajnit të Aksesueshëm të krijuara nga Grupi i Punës <abbr title = "Iniciativa e Web Accessibility" lang = "en"> WAI </ abbr> W3C.'
     titles:
       accessibility: Dispnueshmësia
       conditions: Kushtet e përdorimit
