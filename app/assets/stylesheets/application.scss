@@ -20,3 +20,70 @@
 @import 'autocomplete_overrides';
 @import 'jquery-ui/sortable';
 @import 'leaflet';
+
+
+.top-links {
+    background: #003c65;
+    color: #fff;
+    font-size: 0.875rem;
+    padding-right: 0.75rem;
+    
+}
+
+.top-bar .menu > li a {
+    color: #3C376E;
+    padding-left: 0;
+    
+}
+.top-bar .has-submenu.is-active a {
+    color: #3C376E;
+    
+}
+div#navigation_bar{
+background: #CE3728;
+}
+.subnavigation a{
+ color:black;
+
+}
+.subnavigation a:hover{
+ color:white;
+}
+
+@media (min-width: 40em) {
+.subnavigation a {
+ color:white;
+font-family:"Montserrat";
+
+}
+}
+
+footer a:hover,
+footer a:active:hover,
+footer a:focus:hover {
+  color: #CE3728;
+}
+.jumbo {
+    background: #e7f2fc;
+    margin-bottom: 1.5rem;
+    margin-top: -1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    
+}
+header {
+    background: white;
+    border-bottom: 1px solid #dee0e3;
+    margin-bottom: 1.5rem;
+}
+.top-links {
+    background: #3C376E;
+    color: #fff;
+    font-size: 0.875rem;
+    padding-right: 0.75rem;
+   
+}
+.button:hover, .button:focus {
+  background-color: #500778;
+  color: #fefefe;
+}
