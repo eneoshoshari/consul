@@ -1,24 +1,25 @@
-sq:
+﻿sq:
   pages:
     conditions:
-      title: Termat dhe kushtet e përdorimit
-      subtitle: NJOFTIM LIGJOR PËR KUSHTET E PËRDORIMIT, PRIVATIZIMIT DHE MBROJTJEN E TË DHËNAVE PERSONALE TË PORTALIT TË QEVERISË SË HAPUR
-      description: Faqe informuese mbi kushtet e përdorimit, privatësinë dhe mbrojtjen e të dhënave personale.
+      title: Termat dhe kushtet e perdorimit
+      subtitle: LEGAL NOTICE ON THE CONDITIONS OF USE, PRIVACY AND PROTECTION OF PERSONAL DATA OF THE OPEN GOVERNMENT PORTAL
+      description: Information page on the conditions of use, privacy and protection of personal data.
+    general_terms: Terms and Conditions
     help:
-      title: "%{org}është një platformë për pjesëmarrjen e qytetarëve"
-      guide: "Ky udhëzues shpjegon se çfarë janë secila nga seksionet e %{org} dhe se si funksionojnë."
+      title: "%{org} është një platformë për pjesëmarrjen e qytetarëve"
+      guide: "Në %{org} ju mund të bëni propozime, votoni, propozime për buxhetin, shkëmbeni mendime/opinone."
       menu:
         debates: "Debate"
         proposals: "Propozime"
-        budgets: "Buxhetet  pjesëmarrës"
-        polls: "Sondazhet"
+        budgets: "Buxhetimi me pjesëmarrje"
+        polls: "Sondazhe"
         other: "Informacione të tjera me interes"
-        processes: "Proçese"
+        processes: "Procese"
       debates:
         title: "Debate"
         description: "Në seksionin %{link} ju mund të paraqisni dhe të ndani mendimin tuaj me njerëzit e tjerë për çështjet që kanë lidhje me ju në lidhje me qytetin. Është gjithashtu një vend për të krijuar ide që përmes seksioneve të tjera të %{org} të çojnë në veprime konkrete nga Këshilli i Qytetit."
         link: "debate qytetare"
-        feature_html: "Ju mund të hapni debate, komentoni dhe vlerësoni ato me<strong>Pranoj</strong>ose<strong>Nuk pranoj</strong>.Për këtë ju duhet të %{link}"
+        feature_html: "Ju mund të hapni debate, komentoni dhe vlerësoni ato me<strong>Pranoj</strong>ose<strong>Nuk pranoj</strong>. Për këtë ju duhet të %{link}."
         feature_link: "regjistrohuni në %{org}"
         image_alt: "Butonat për të vlerësuar debatet"
         figcaption: 'Butonat "Unë pajtohem" dhe "Unë nuk pajtohem"  për të vlerësuar debatet.'
@@ -29,154 +30,143 @@ sq:
         image_alt: "Butoni për të mbështetur një propozim"
         figcaption_html: 'Butoni për të mbështetur një propozim'
       budgets:
-        title: "Buxheti  pjesëmarrës"
+        title: "Buxheti pjesëmarrës"
         description: "Seksioni %{link} ndihmon njerëzit të marrin një vendim të drejtpërdrejtë mbi atë pjesë të buxhetit komunal ku shpenzohen."
-        link: "buxhetet pjesëmarrëse"
+        link: "buxhetimi me pjesëmarrje"
         image_alt: "Faza të ndryshme të një buxheti pjesëmarrjës"
         figcaption_html: '"Mbështet" dhe "Voto" fazat e buxheteve pjesëmarrëse.'
       polls:
-        title: "Sondazhet"
+        title: "Sondazhe"
         description: "Seksioni %{link} aktivizohet çdo herë që një propozim arrin 1% mbështetje dhe shkon në votim ose kur Këshilli i Qytetit propozon një çështje për njerëzit që të vendosin."
-        link: "Sondazhet"
+        link: "sondazhe"
         feature_1: "Për të marrë pjesë në votim duhet të %{link} dhe të verifikoni llogarinë tuaj."
         feature_1_link: "regjistrohuni në  %{org_name}"
       processes:
-        title: "Proçese"
+        title: "Procese"
         description: "Në seksionin %{link}, qytetarët marrin pjesë në hartimin dhe modifikimin e rregulloreve që ndikojnë në qytet dhe mund të japin mendimin e tyre mbi politikat komunale në debatet e mëparshme."
-        link: "Proçese"
+        link: "processes"
       faq:
         title: "Probleme teknike?"
         description: "Lexoni FAQ dhe zgjidhni pyetjet tuaja."
         button: "Shiko pyetjet e bëra shpesh"
         page:
-          title: "Pyetjet e bëra shpesh"
-          description: "Përdorni këtë faqe për të zgjidhur FAQ e përbashkët tek përdoruesit e faqes."
-          faq_1_title: "Pyetja 1"
-          faq_1_description: "Ky është një shembull për përshkrimin e pyetjes së parë."
+          title: "Frequently Asked Questions"
+          description: "Use this page to resolve the common FAQs to the users of site."
+          faq_1_title: "Question 1"
+          faq_1_description: "This is an example for the description of question one."
       other:
         title: "Informacione të tjera me interes"
-        how_to_use: "Përdorni %{org_name} në qytetin tuaj"
+        how_to_use: "Use %{org_name} in your city"
+      how_to_use:
+        text: |-
+          Use it in your local government or help us to improve it, it is free software.
+
+          This Open Government Portal use the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+
+          If you are a programmer, you can see the code and help us to improve it at [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
-        how_to_use: Përdoreni atë në qeverinë tuaj lokale
+        how_to_use: Use it in your local government
     privacy:
-      title: Politika e privatësisë
-      subtitle: INFORMACIONE NË LIDHJE ME PRIVATËSIN E TË DHËNAVE
+      title: Privacy Policy
+      subtitle: INFORMATION REGARDING DATA PRIVACY
       info_items:
-        - 
-          text: Navigimi përmes informacionit që gjendet në Portalin e hapur të Qeverisë  është anonime.
-        - 
-          text: Për të përdorur shërbimet e përmbajtura në Portalin e hapur të Qeverisë përdoruesi duhet të regjistrohet më parë dhe të ofrojë të dhëna personale sipas informatave specifike të përfshira në çdo lloj regjistrimi.
-        - 
-          text: 'Të dhënat e siguruara do të përfshihen dhe përpunohen nga Këshilli i Qytetit në përputhje me përshkrimin e dokumentit të mëposhtëm:'
-        - 
-          subitems:
-            - 
-              field: 'Emri i skedarit:'
-              description: EMRI I DOKUMENTAVE
-            - 
-              field: 'Qëllimi i dokumentit:'
-              description: Menaxhimi i proceseve pjesëmarrëse për të kontrolluar kualifikimin e njerëzve që marrin pjesë në to dhe thjesht numërimin numerik dhe statistikor të rezultateve të nxjerra nga proceset e pjesëmarrjes qytetare.
-            - 
-              field: 'Institucioni përgjegjës për dokumentin:'
-              description: 'Institucioni përgjegjës për dosjen:'
+        - text: The navigation through the information available in the Open Government Portal is anonymous.
+        - text: To use the services contained in the Open Government Portal, the user must register and previously provide personal data according to the specific information included in each type of registration.
+        - text: 'The data provided will be incorporated and processed by the City Council in accordance with the description of the following file:'
+        - subitems:
+          - field: 'File name:'
+            description: NAME OF THE FILE
+          - field: 'Purpose of the file:'
+            description: Managing participatory processes to control the qualification of the people participating in them and merely numerical and statistical recount of the results derived from citizen participation processes.
+          - field: 'Institution in charge of the file:'
+            description: INSTITUTION IN CHARGE OF THE FILE
+        - text: The interested party may exercise the rights of access, rectification, cancellation and opposition, before the responsible body indicated, all of which is reported in compliance with article 5 of the Organic Law 15/1999, of December 13, on the Protection of Data of Character Personal.
+        - text: As a general principle, this website does not share or disclose information obtained, except when it has been authorized by the user, or the information is required by the judicial authority, prosecutor's office or the judicial police, or any of the cases regulated in the Article 11 of the Organic Law 15/1999, of December 13, on the Protection of Personal Data.
     accessibility:
-      title: Aksesueshmëria
+      title: Accessibility
       description: |-
-        Aksesi në ueb ka të bëjë me mundësinë e qasjes në ueb dhe përmbajtjen e tij nga të gjithë njerëzit, pavarësisht nga aftësitë e kufizuara (fizike, intelektuale ose teknike) që mund të lindin ose nga ato që rrjedhin nga konteksti i përdorimit (teknologjik ose mjedisor).
+        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental) .
+
+        When websites are designed with accessibility in mind, all users can access content in equal conditions, for example:
       examples:
         - Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
-        - Kur videot kanë titra, përdoruesit me vështirësi dëgjimi mund t'i kuptojnë plotësisht ato.
-        - Nëse përmbajtja është e shkruar në një gjuhë të thjeshtë dhe të ilustruar, përdoruesit me probleme të të mësuarit janë më të aftë t'i kuptojnë ato.
-        - Nëse përdoruesi ka probleme të lëvizshmërisë dhe është e vështirë të përdorësh mausin, alternativat me ndihmën e tastierës ndihmojnë në navigacion.
+        - When videos have subtitles, users with hearing difficulties can fully understand them.
+        - If the contents are written in a simple and illustrated language, users with learning problems are better able to understand them.
+        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
       keyboard_shortcuts:
-        title: Shkurtoret e tastierës
+        title: Keyboard shortcuts
         navigation_table:
-          description: Për të qenë në gjendje për të lundruar nëpër këtë faqe në një mënyrë të arritshme, është programuar një grup çelësash të shpejtë për të mbledhur pjesët kryesore të interesit të përgjithshëm në të cilin është organizuar faqja.
-          caption: Shkurtoret e tastierës për menunë e lundrimit
-          key_header: Celës
-          page_header: Faqja
+          description: To be able to navigate through this website in an accessible way, a group of quick access keys has been programmed that gather the main sections of general interest in which the site is organized.
+          caption: Keyboard shortcuts for the navigation menu
+          key_header: Key
+          page_header: Page
           rows:
-            - 
-              key_column: 0
-              page_column: Faqja kryesore
-            - 
-              key_column: 1
-              page_column: Debate
-            - 
-              key_column: 2
-              page_column: Propozime
-            - 
-              key_column: 3
-              page_column: Vota
-            - 
-              key_column: 4
-              page_column: Buxhetet  pjesëmarrës
-            - 
-              key_column: 5
-              page_column: Proceset legjislative
+            - key_column: 0
+              page_column: Home
+            - key_column: 1
+              page_column: Debates
+            - key_column: 2
+              page_column: Proposals
+            - key_column: 3
+              page_column: Votes
+            - key_column: 4
+              page_column: Participatory budgets
+            - key_column: 5
+              page_column: Legislative processes
         browser_table:
-          description: 'Në varësi të sistemit operativ dhe shfletuesit të përdorur, kombinimi kyç do të jetë si vijon:'
-          caption: Kombinimi kyç në varësi të sistemit operativ dhe shfletuesit
-          browser_header: Shfletues
-          key_header: Kombinim i celsave
+          description: 'Depending on the operating system and the browser used, the key combination will be as follows:'
+          caption: Key combination depending on the operating system and browser
+          browser_header: Browser
+          key_header: Key combination
           rows:
-            - 
-              browser_column: Explorer
-              key_column: ALT + shkurtore pastaj ENTER
-            - 
-              browser_column: Firefox
-              key_column: ALT + CAPS + shkurtore
-            - 
-              browser_column: Chrome
-              key_column: ALT + shkurtore (CTRL + ALT + shkurtore për MAC
-            - 
-              browser_column: Safari
-              key_column: ALT + shkurtore (CTRL + shkurtore për MAC)
-            - 
-              browser_column: Opera
-              key_column: CAPS + ESC + shkurtore
+            - browser_column: Explorer
+              key_column: ALT + shortcut then ENTER
+            - browser_column: Firefox
+              key_column: ALT + CAPS + shortcut
+            - browser_column: Chrome
+              key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
+            - browser_column: Safari
+              key_column: ALT + shortcut (CMD + shortcut for MAC)
+            - browser_column: Opera
+              key_column: CAPS + ESC + shortcut
       textsize:
-        title: Madhësia e tekstit
+        title: Text size
         browser_settings_table:
-          description: Dizajni i aksesueshëm i kësaj faqeje lejon përdoruesin të zgjedhë madhësinë e tekstit që i përshtatet atij. Ky veprim mund të kryhet në mënyra të ndryshme në varësi të shfletuesit të përdorur.
-          browser_header: Shfletues
-          action_header: Veprimi që duhet marrë
+          description: The accessible design of this website allows the user to choose the size of the text that suits him. This action can be carried out in different ways depending on the browser used.
+          browser_header: Browser
+          action_header: Action to be taken
           rows:
-            - 
-              browser_column: Eksploro
-              action_column: Shiko> Madhësia e tekstit
-            - 
-              browser_column: Firefox
-              action_column: Shiko> Madhësia
-            - 
-              browser_column: Chrome
-              action_column: Opsionet (ikona)> Opsionet> Të avancuara> Përmbajtja e uebit> Madhësia e tekstit
-            - 
-              browser_column: Safari
-              action_column: Pamja> Zmadho / Zvogëlo
-            - 
-              browser_column: Opera
-              action_column: Shiko> masë
+            - browser_column: Explorer
+              action_column: View > Text size
+            - browser_column: Firefox
+              action_column: View > Size
+            - browser_column: Chrome
+              action_column: Settings (icon) > Options > Advanced > Web Content > Text size
+            - browser_column: Safari
+              action_column: View > Zoom In/Zoom out
+            - browser_column: Opera
+              action_column: View > scale
         browser_shortcuts_table:
-          description: 'Një mënyrë tjetër për të ndryshuar madhësinë e tekstit është të përdorni shkurtoret e tastierës të përcaktuara në shfletues, në veçanti kombinimin kyç:'
+          description: 'Another way to modify the text size is to use the keyboard shortcuts defined in browsers, in particular the key combination:'
           rows:
-            - 
-              shortcut_column: CTRL dhe + (CMD dhe + në MAC)
-              description_column: Rrit madhësinë e tekstit
-            - 
-              shortcut_column: CTRL dhe - (CMD dhe - në MAC)
+            - shortcut_column: CTRL and + (CMD and + on MAC)
+              description_column: Increases text size
+            - shortcut_column: CTRL and - (CMD  and - on MAC)
+              description_column: Decreases text size
       compatibility:
-        title: Pajtueshmëria me standardet dhe dizajni vizual
+        title: Compatibility with standards and visual design
+        description_html: 'All pages of this website comply with the <strong> Accessibility Guidelines </strong> or General Principles of Accessible Design established by the Working Group <abbr title = "Web Accessibility Initiative" lang = "en"> WAI </ abbr> belonging to W3C.'
+
     titles:
-      accessibility: Dispnueshmësia
-      conditions: Kushtet e përdorimit
-      help: "Çfarë është %{org} ? - Pjesëmarrja e qytetarëve"
-      privacy: Politika e privatësisë
+      accessibility: Accessibility
+      conditions: Terms of use
+      help: "What is %{org}? - Citizen participation"
+      privacy: Privacy Policy
     verify:
-      code: Kodi që keni marrë në letër
+      code: Code you received in letter
       email: Email
-      info: 'Për të verifikuar llogarinë tënde, futni të dhënat e aksesit tuaj:'
-      info_code: 'Tani futni kodin që keni marrë në letër:'
-      password: Fjalëkalim
-      submit: Verifikoni llogarinë time
-      title: verifikoni llogarinë tuaj
+      info: 'To verify your account introduce your access data:'
+      info_code: 'Now introduce the code you received in letter:'
+      password: Password
+      submit: Verify my account
+      title: Verify your account
