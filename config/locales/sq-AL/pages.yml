@@ -2,8 +2,8 @@
   pages:
     conditions:
       title: Termat dhe kushtet e perdorimit
-      subtitle: LEGAL NOTICE ON THE CONDITIONS OF USE, PRIVACY AND PROTECTION OF PERSONAL DATA OF THE OPEN GOVERNMENT PORTAL
-      description: Information page on the conditions of use, privacy and protection of personal data.
+      subtitle: NJOFTIM LIGJOR PËR KUSHTET E PËRDORIMIT, PRIVATIZIMIT DHE MBROJTJEN E TË DHËNAVE PERSONALE TË PORTALIT TË PJESËMARRJES SË HAPUR TË QYTETIT TË TIRANËS
+    description: Information page on the conditions of use, privacy and protection of personal data.
     general_terms: Terms and Conditions
     help:
       title: "%{org} është një platformë për pjesëmarrjen e qytetarëve"
